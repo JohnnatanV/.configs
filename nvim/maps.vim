@@ -2,11 +2,6 @@ let mapleader=" "
 
 nmap <Leader>p <Plug>(Prettier)
 
-" Autocomplete mapping
-inoremap <expr> <cr> coc#pum#visible() ? coc#pum#confirm() : "\<CR>"
-inoremap <expr> <C-j> coc#pum#visible() ? coc#pum#next(1) : "\<C-j>"
-inoremap <expr> <C-k> coc#pum#visible() ? coc#pum#prev(1) : "\<C-k>"
-
 " Easymotion maping
 nmap <Leader>s <Plug>(easymotion-s2)
 
