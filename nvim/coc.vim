@@ -12,7 +12,7 @@ inoremap <expr> <C-j> coc#pum#visible() ? coc#pum#next(1) : "\<C-j>"
 inoremap <expr> <C-k> coc#pum#visible() ? coc#pum#prev(1) : "\<C-k>"
 
 if has('nvim')
-	inoremap <silent><expr> <TAB> coc#refresh()
+	inoremap <silent><expr> <C-R> coc#refresh()
 else
 	inoremap <silent><expr> <c-@> coc#refresh()
 endif
